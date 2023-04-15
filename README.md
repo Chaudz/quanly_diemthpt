@@ -8,6 +8,8 @@ npm run build
 + Tìm kiếm tất cả
 + Tìm kiếm theo id
 
-**- Update user theo id:**
+**- Update user theo id**
+
 **- Delete user theo id**
+
 **- Tạo mới user**
