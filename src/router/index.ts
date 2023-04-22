@@ -1,12 +1,8 @@
 import { Router } from "express";
-import userController from "../controllers/user_controller";
+import authenController from "../controllers/authen_controller";
 
 const router = Router();
 
-router.get("/", userController.index);
-router.get("/:id", userController.show);
-router.post("/", userController.create);
-router.delete("/:id", userController.remove);
-router.put("/", userController.update);
-
+router.post("/login", authenController.index);
+router.get("/logout", authenController.logout);
 export default router;
